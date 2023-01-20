@@ -7,22 +7,43 @@ header {
     opacity: 1;
 }
 
+.percent70__width {
+display: flex;
+flex-direction: row;
+}
+
 .logo {
     width: 180px;
     height: 50px;
     padding-top: 15px;
     padding-left: 245px;
     opacity: 1;
-    display: flex;
+
 }
 
-nav {
+.navigation {
+    height: 80px;
+    padding-top: 30px;
+}
+
+.navigation__container {
     width: 433px;
     height: 15px;
     padding-top: 33px;
-    padding-left: 922px;
+    margin-left: 677px;
     opacity: 1;
     display: inline;
-    float: inherit;
 }
     
+.nav__link {
+width: 47px;
+height: 15px;
+text-align: left;
+font: normal normal bold 12px/15px Montserrat;
+letter-spacing: 2.4px;
+color: #f4f3f5;
+text-transform: uppercase;
+opacity: 0.65;
+margin-left: 4.571rem;
+}
+

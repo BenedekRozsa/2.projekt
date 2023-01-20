@@ -1,0 +1,34 @@
+* { 
+    box-sizing: border-box;
+} 
+
+html { 
+    font-size:  14px; 
+    width: 1600px;
+    height: 900px;
+    margin: 0;
+} 
+main {
+  width: 1600px;
+}
+
+h2, h6,
+p {
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor:          pointer;
+  }
+
+  body {
+    color:            #211138;
+    background-color: #f4f3f5;
+    font-family:      'Montserrat', sans-serif;
+  }
+  
+  
+  h2 { 
+    font-size: 2.857rem; 
+}

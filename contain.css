@@ -1,0 +1,186 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left__container {
+    width: 540px;
+    height: 640px;
+    margin-top: 120px;
+    margin-left: 245px;
+    padding-left: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    padding:          4.286rem;
+    border-radius:    1.071rem;
+}
+
+iframe{
+    width: 100%;
+    height: 280px;
+}
+
+.contact-info__map,
+.contact-info__address,
+.contact-info__phone-email {
+  margin-bottom: 2.143rem;
+}
+
+.contact-info__social-media { margin-bottom: .357rem; }
+
+h4, .contact-info {
+    margin-bottom: .357rem;
+    color: #6200EA;
+}
+
+h4 {
+padding-bottom: 10px;
+}
+
+p {
+    width: 420px;
+    height: 40px;
+    text-align: left;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #211138;
+    opacity: 1;
+}
+
+.contact-info {
+    letter-spacing: 2.4px;
+    color: #6200EA;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-top: 30px;
+    font-weight: 800;
+}
+a:link{
+    color: #6200EA;
+}
+
+.socail__media__container {
+    width: 420px;
+    height: 210px;
+    margin-top: 140px;
+    padding-left: 4.286rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lista__elem {
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    color: #6200EA;
+    display: inline;
+}
+
+.right__container {
+    margin-top: 120px;
+    margin-left: 30px;
+    padding:          4.286rem;
+    border-radius:    1.071rem;
+    background-color: #ffffff;
+}
+
+.contact__header {
+    margin-bottom: 1.429rem;
+}
+
+h2 {
+    margin-bottom: .7143rem;
+}
+.pcontact {
+    font-size: 1.429rem;
+    line-height: 30px;
+}
+
+form {
+    display:          flex; 
+    flex-direction: column;
+    width:            100%;
+    padding:          1.1428rem 0 .9286rem 1.7143rem;
+    margin-top: 200px;
+    border:           0; 
+    border-bottom:    3px solid; 
+    border-color:     transparent; 
+    margin-bottom:    1.071rem;
+    background-color: #f4f3f5;
+    outline:          none;
+    text-align: left;
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0;
+    color: #211138;
+    opacity: 1;
+}
+.form:focus {
+    border: bottom color #6200ea;
+}
+form::placeholder {
+    font-weight: bold;
+    opacity: 0.25;
+}
+
+#name {
+    height: 50px;
+    display: block;
+    background-color: #f4f3f5;
+    outline:          none;
+    text-align: left;
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0;
+    color: #211138;
+    opacity: 1;
+    border:           0; 
+    border-bottom:    3px solid; 
+    border-color:     transparent; 
+}
+
+#email {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    background-color: #f4f3f5;
+    outline:          none;
+    text-align: left;
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0;
+    color: #211138;
+    opacity: 1;
+    border:           0; 
+    border-bottom:    3px solid; 
+    border-color:     transparent; 
+}
+
+textarea {
+    width: 420px;
+    height: 150px;
+    margin-bottom: 1.4286rem;
+    background: #f4f3f5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: normal normal bold 14px/18px Montserrat;
+    border:           0; 
+    border-bottom:    3px solid; 
+    border-color:     transparent; 
+
+}
+
+.submit {
+    margin-top: 1px;
+    left: 875px;
+    width: 420px;
+    padding:        1.286rem 0;
+    color: #FFFFFF;
+    background: #6200EA;
+    border-radius: 24px;
+    margin-bottom:  0;
+    font-size:      .857rem;
+    font-weight:    bold;
+    text-transform: uppercase;
+    letter-spacing: .171rem;
+    cursor: pointer;
+}
